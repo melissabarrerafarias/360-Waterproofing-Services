@@ -1,0 +1,161 @@
+#about {
+    background-color: #202020;
+    padding-bottom: 30px
+}
+
+/* #abt-dzone h1 {
+    color: white; 
+    font-family: 'Kanit', sans-serif;
+    margin-top: 5%; 
+    margin-left: 5%; 
+    text-decoration: underline;
+}
+
+#abt-dzone .row {
+    margin-top: 10%
+}
+
+.owner-img {
+    display: flex;
+    justify-content: center;
+}
+
+#abt-dzone img {
+    width: 70%
+} */
+
+.about-hero {
+    background-image: url("./assets/images/solo.jpg"); 
+    height: 700px;
+    min-width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.abt-hero-title {
+    position: absolute;
+    top: 50%; 
+    left: 40%;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    color: white
+}
+
+#about-paragraphs {
+    color: white; 
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif; 
+    width: 40%; 
+    margin: auto; 
+    margin-top: 5%; 
+    margin-bottom: 10%
+}
+
+#about-paragraphs h1 {
+    color: #FD9116; 
+    margin-bottom: 2%;
+    margin-top: 10%
+}
+
+
+@media (max-width: 1100.98px) {
+    .abt-hero-title {
+        left: 35%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .about-hero {
+        height: 500px
+    }
+
+    .abt-hero-title {
+        left: 33%;
+    }
+
+    #about-paragraphs {
+        width: 50%; 
+    }
+}
+
+@media (max-width: 767px) {
+    .abt-hero-title {
+        left: 30%;
+    }
+
+    .about-hero {
+        height: 400px
+    }
+
+    #about-paragraphs {
+        width: 60%; 
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 720px) {
+    .abt-hero-title {
+        left: 32%;
+        font-size: 25px 
+    }
+
+    .about-hero {
+        height: 350px
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    #about-paragraphs {
+        width: 60%; 
+        font-size: 14px;
+    }
+
+    .abt-hero-title {
+        left: 32%;
+        font-size: 20px 
+    }
+
+    .about-hero {
+        height: 300px
+    }
+}
+
+@media (max-width: 485px) {
+    #about-paragraphs {
+        width: 70%; 
+        font-size: 12px;
+    }
+
+    .abt-hero-title {
+        left: 23%;
+    }
+
+    .about-hero {
+        height: 250px
+    }
+}
+
+@media (max-width: 375.98px) {
+    #about-paragraphs {
+        width: 70%; 
+        font-size: 12px;
+    }
+
+    .abt-hero-title {
+        left: 25%;
+        font-size: 18px
+    }
+
+    .about-hero {
+        height: 200px
+    }
+
+    #about-paragraphs h1 {
+        font-size: 25px;
+    }
+}

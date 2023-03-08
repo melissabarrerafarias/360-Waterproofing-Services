@@ -1,0 +1,486 @@
+#services {
+    background-color: #202020;
+    padding-bottom: 30px
+}
+
+.services-img {
+    height: 700px;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Needed to position the navbar */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2%
+}
+
+.services-img img {
+    /* opacity: 50%;  */
+    transition-duration: 1s;
+}
+
+/* .services-img img:hover { 
+    opacity: 100%
+} */
+
+
+.services-img area {
+    cursor: pointer;
+}
+
+.modal-img {
+    max-width: 100%;
+}
+
+.modal-content {
+    background-color: #202020;
+    border-radius: 0px;
+    color: white;
+}
+
+.modal-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: #fd9116;
+}
+
+.modal-body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    margin: 10px
+}
+
+.modal-body img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%
+}
+
+.modal-body a {
+    color: #fd9116
+}
+
+.modal-header .btn-close {
+    background-color: white;
+    border-radius: 15px 15px 15px;
+}
+
+#in-depth-services h1 {
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#in-depth-services {
+    display: flex;
+    justify-content: center;
+}
+
+.services-page-nav {
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    background-image: url(./assets/images/white-wall.avif);
+    max-width: 50%;
+}
+
+.services-page-nav ul {
+    list-style-type: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.services-page-nav ul li a {
+    color: black
+}
+
+.explore-hidden {
+    display: none;
+}
+
+#in-depth-services h2 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-top: 15%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.services-detail-left {
+    display: flex;
+    justify-content: end;
+}
+
+.services-detail-right {
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    max-width: 30%;
+    margin-left: 2%;
+    background-image: url(./assets/images/white-wall.avif);
+}
+
+.services-detail-right p {
+    padding: 20px
+}
+
+.srvs-center-description p {
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    max-width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-image: url(./assets/images/white-wall.avif)
+}
+
+.carousel {
+    max-width: 50%;
+}
+
+#windowanddooropening-srvs .carousel {
+    max-width: 30%;
+}
+
+#architecturalCaulking-srvs .carousel {
+    max-width: 40%;
+}
+
+.carousel-item {
+    max-height: 450px;
+}
+
+/* 
+#showerpans-srvs p {
+    max-width: 40%;
+} */
+
+.services-detail-right ul {
+    margin-top: 40px
+}
+
+#windowanddooropening-srvs img {
+    max-width: 100%;
+}
+
+#windowanddoorpans-srvs img {
+    max-width: 100%;
+}
+
+.carousel img {
+    max-width: 100%;
+    opacity: 80%
+}
+
+#retaining-walls-srvs img {
+    max-width: 100%;
+}
+
+#decks-srvs img {
+    max-width: 100%;
+}
+
+#mudsill-srvs img {
+    max-width: 100%;
+}
+
+#planters-srvs img {
+    max-width: 80%;
+}
+
+
+#showerpans-srvs img {
+    max-width: 100%;
+}
+
+#liquidAppliedFlashings-srvs img {
+    max-width: 100%;
+}
+
+#architecturalCaulking-srvs img {
+    max-width: 100%;
+    max-height: 450px;
+    min-height: 450px;
+}
+
+#waterResistantBarriers-srvs img {
+    max-width: 100%
+}
+
+#epoxyCoatings-srvs img {
+    max-width: 100%;
+}
+
+#crackRepairsAndInjections-srvs img {
+    max-width: 100%
+}
+
+.back-to-top {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    transition-duration: 1s
+}
+
+.back-to-top:hover {
+    color: #fd9116
+}
+
+.arrow {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .carousel-item {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .carousel-item {
+        max-height: 350px;
+    }
+    
+    #planters-srvs img {
+        max-width: 80%;
+        height: 250px;
+    }
+
+    .services-detail-right {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carousel-item {
+        max-height: 320px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .carousel-item {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .services-img {
+        height: 500px;
+    }
+
+    #in-depth-services h1 {
+        display: none;
+    }
+
+    .explore-hidden {
+        display: block !important
+    }
+
+    .carousel-item {
+        max-height: 250px;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    #windowanddooropening-srvs .carousel {
+        max-width: 50%;
+    }
+
+    .srvs-center-description p {
+        max-width: 50%;
+    }
+
+    .carousel-item {
+        max-height: 200px;
+    }
+
+    #windowanddooropening-srvs .carousel-item {
+        max-height: 450px
+    }
+
+    #architecturalCaulking-srvs .carousel {
+        max-width: 50%;
+    }
+
+    #architecturalCaulking-srvs .carousel-item {
+        max-height: 450px
+    }
+}
+
+@media (max-width: 767px) {
+    .services-img {
+        height: 400px;
+    }
+
+    .srvs-center-description p {
+        font-size: 15px;
+    }
+
+    .services-detail-right {
+        color: black;
+        font-family: 'Kanit', sans-serif;
+        font-size: 15px;
+        max-width: 50%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+
+    /* #mudsill-srvs img, */
+    #planters-srvs img {
+        max-width: 50%;
+    }
+
+    /* #mudsill-srvs div, */
+    #planters-srvs div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-page-nav {
+        font-size: 20px;
+        max-width: 60%;
+        padding: 20px
+    }
+
+    #in-depth-services h1 {
+        font-size: 20px;
+        margin-bottom: 20px
+    }
+
+    .carousel-item {
+        max-height: 180px;
+    }
+
+    #architecturalCaulking-srvs img {
+        
+        min-height: 250px
+    }
+}
+
+@media (max-width: 600px) {
+    .services-img {
+        height: 350px;
+    }
+
+    .carousel-item {
+        max-height: 160px;
+    }
+
+    #architecturalCaulking-srvs .carousel {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    #in-depth-services h2 {
+        font-size: 25px;
+    }
+    
+    .services-img {
+        height: 300px;
+    }
+
+    .carousel {
+        max-width: 70%;
+    }
+
+    #windowanddooropening-srvs .carousel {
+        max-width: 70%;
+    }
+
+    .srvs-center-description p {
+        max-width: 70%;
+    }
+
+    .services-page-nav {
+        max-width: 70%
+    }
+
+    .services-detail-right {
+        max-width: 70%;
+        padding: 5px
+    }
+
+    /* #mudsill-srvs img, */
+    #planters-srvs img {
+        max-width: 70%;
+    }
+
+    .carousel-item {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 460px) {
+    .services-img {
+        height: 250px;
+    }
+
+    .carousel-item {
+        max-height: 150px;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .services-img {
+        height: 200px;
+    }
+
+    .carousel {
+        max-width: 80%;
+    }
+
+    #windowanddooropening-srvs .carousel {
+        max-width: 80%;
+    }
+
+    .srvs-center-description p {
+        max-width: 80%;
+    }
+
+    .services-page-nav {
+        font-size: 15px;
+        max-width: 80%;
+        padding: 20px
+    }
+
+    #in-depth-services h1 {
+        font-size: 15px;
+        margin-bottom: 20px
+    }
+}

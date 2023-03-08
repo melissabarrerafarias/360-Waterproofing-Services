@@ -1,0 +1,42 @@
+#confirm-page {
+    background-image: url('./assets/images/water-drops.jpg');
+    height: 800px; 
+}
+
+#confirm {
+    display: flex;
+    justify-content: center;
+}
+
+.confirmation-text {
+    font-size: 30px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 250px; 
+    text-align: center;
+    /* background-color: rgba(253, 145, 22, 0.85); */
+    /* text-decoration: underline rgba(253, 145, 22, 0.85); */
+}
+
+
+#confirm a {
+    /* text-align: center; */
+    color: rgba(253, 145, 22, 0.85); 
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+
+
+@media (max-width: 767px) {
+    .confirmation-text {
+        font-size: 20px;
+    }
+
+    #confirm a {
+        font-size: 15px;
+    }
+}

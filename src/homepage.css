@@ -1,0 +1,660 @@
+/* .hero {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.hero-img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    opacity: 98%;
+} */
+
+#homepage-main {
+    background-color: #202020;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("../src/assets/images/water-drops.jpg");
+    height: 700px;
+    min-width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    /* margin: 20px; */
+    min-width: 100%;
+    padding: 0
+}
+
+.container2 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    /* width: 100%; */
+}
+
+.hero-title {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.container2 p {
+    margin-bottom: 0px;
+}
+
+.hero-btns {
+    float: right;
+    /* margin-right: 25px */
+}
+
+.hero-btns a {
+    text-decoration: none;
+    color: white
+}
+
+.hero-btn {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    margin: 8px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+.hbtn1 {
+    background-color: rgba(253, 145, 22, 0.85);
+    transition-duration: 1.5s;
+}
+
+.hbtn2 {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding-right: 18px;
+    padding-left: 18px;
+    transition-duration: 1.5s
+}
+
+.hbtn1 a {
+    color: black;
+    transition-duration: 1.5s;
+}
+
+.hbtn2 a {
+    transition-duration: 1.5s;
+}
+
+.hbtn1:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    /* color: white */
+}
+
+.hbtn2:hover {
+    background-color: rgba(253, 145, 22, 0.85);
+    /* color: black */
+}
+
+.hbtn1 a:hover {
+    color: white;
+}
+
+.hbtn2 a:hover {
+    color: black;
+}
+
+.worker-div {
+    display: flex;
+    justify-content: end;
+}
+
+.worker-img {
+    max-width: 85%;
+    margin-top: 30%;
+}
+
+/* .what-i-div {
+    display: flex; 
+    justify-content: center;
+} */
+
+#what-i-do h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.do-expln {
+    display: flex;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+#what-i-do p {
+    color: white;
+    max-width: 60%;
+    font-size: 18px;
+}
+
+/* .do-examples {
+    display: flex;
+    
+} */
+
+.do-examples ul li {
+    color: #D79116;
+    font-size: 18px;
+    margin-left: 19%;
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.do-examples ul li span {
+    color: white
+}
+
+.read-more {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5% */
+}
+
+.read-more button {
+    background-color: #D79116; 
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border-radius: 5px;
+}
+
+.read-more button a {
+    text-decoration: none;
+    color: black
+}
+
+#what-people-are-saying h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#what-people-are-saying .col-md-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.quote {
+    background-color: #1A1A1A;
+    width: 80%;
+    height: 90%;
+    padding: 40px; 
+    color: white; 
+    font-family: 'Work Sans', sans-serif; 
+    text-align: center;
+}
+
+#contact-me {
+    padding-bottom: 10%
+}
+
+#contact-me h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.contact-area p {
+    text-align: center;
+    color: white; 
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.contact-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%
+}
+
+#contact-me form {
+    width: 70%
+}
+
+#contact-me form input {
+    height: 40px; 
+    border: 2px solid #202020;
+    border-bottom: 3px solid #D79116;
+}
+
+#contact-me textarea {
+    height: 150px; 
+    border: 2px solid #202020;
+    border-bottom: 3px solid #D79116;
+}
+
+#contact-me button {
+    background-color: rgba(253, 145, 22, 0.85);
+    border: none; 
+    font-family: 'Work Sans', sans-serif; 
+    margin: auto; 
+    color: black
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info {
+    text-align: center;
+    width: 70%; 
+    height: 80%; 
+    background-color: #171717;
+    margin: auto;
+    margin-top: 10%;
+    /* margin-right: 25% */
+}
+
+.contact-info h2 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    text-decoration: underline #D79116;
+    text-underline-offset: 6px;
+    padding-top: 5%; 
+}
+
+.contact-info a {
+    font-size: 30px;
+    color: white !important; 
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+}
+
+.call {
+    margin-top: 5%
+}
+
+.email {
+    margin-top: 5%;
+}
+
+.contact-icons {
+    margin-top: 5%
+}
+
+.contact-icons a {
+    margin: 5%; 
+    font-size: 40px; 
+    transition-duration: 1s;
+}
+
+.contact-icons a i {
+    text-decoration: underline #D79116;
+    text-underline-offset: 6px;
+    transition-duration: .5s;
+}
+
+.contact-icons a i:hover {
+    color:rgb(255, 169, 71)
+}
+
+/* .contact-area {
+    max-width: 50%
+} */
+
+.row {
+    --bs-gutter-x: 0rem;
+    /* fixes overflow on page*/
+}
+
+/* media queries */
+@media (max-width: 1320.98px) {
+    .bg-img {
+        height: 750px;
+    }
+
+    .container2 {
+        left: 45%;
+    }
+
+    .worker-img {
+        max-width: 90%;
+        margin-top: 30%;
+        max-height: 400px;
+    }
+
+    .quote {
+        width: 90%;
+    }
+
+    .contact-info {
+        width: 80%
+    }
+}
+
+@media (max-width: 1100.98px) {
+    .bg-img {
+        height: 750px;
+    }
+
+    .container2 {
+        left: 45%;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .worker-img {
+        max-width: 100%;
+        margin-top: 40%;
+        max-height: 300px;
+    }
+    
+    .contact-info {
+        width: 90%; 
+        height: 90%
+    }
+
+    #contact-me form {
+        width: 80%
+    }
+}
+
+@media (max-width: 991.98px) {
+    .bg-img {
+        height: 600px;
+    }
+
+    .container2 {
+        left: 48%;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-btn {
+        font-size: 15px;
+    }
+
+    .worker-img {
+        max-width: 90%;
+        margin-top: 50%;
+        max-height: 250px;
+    }
+
+    #what-i-do h1 {
+        font-size: 35px; 
+    }
+
+    #what-i-do p {
+        font-size: 16px;
+    }
+
+    .do-examples ul li {
+        font-size: 16px
+    }
+
+    .read-more button {
+        font-size: 18px
+    }
+
+    #what-people-are-saying h1 {
+        font-size: 35px;
+    }
+
+    .quote {
+        text-align: start;
+        font-size: 14px;
+    }
+
+    #contact-me h1 {
+        font-size: 35px
+    }
+
+    .contact-info h2 {
+        font-size: 30px
+    }
+
+    .contact-info a {
+        font-size: 28px;
+    }
+
+    .call {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 767px) {
+    .bg-img {
+        height: 500px;
+    }
+
+    .container2 {
+        left: 48%;
+        top: 42%
+    }
+
+    .hero-title {
+        font-size: 25px;
+    }
+
+    .hero-btn {
+        font-size: 14px;
+    }
+
+    .worker-img {
+        max-width: 70%;
+        margin-top: 20%;
+        max-height: 100%;
+    }
+
+    .worker-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #what-i-do h1 {
+        margin-top: 10%
+    }
+
+    #what-people-are-saying h1 {
+        margin-top: 20%
+    }
+
+    .quote {
+        width: 60%;
+    }
+
+    #contact-me form {
+        width: 60%;
+    }
+
+    .contact-info {
+        width: 60%;
+        height: 90%;
+    }
+
+    .call {
+        margin-top: 5%;
+    }
+
+    #contact-me {
+        padding-bottom: 20%
+    }
+}
+
+@media (max-width: 630px) {
+    .bg-img {
+        height: 400px;
+    }
+
+    .container2 {
+        left: 45%;
+        top: 42%
+    }
+
+    .hero-title {
+        font-size: 23px;
+    }
+
+    .hero-btn {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .contact-info {
+        width: 70%;
+    }
+
+    .contact-info h2 {
+        font-size: 25px;
+    }
+
+    .contact-info a {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 550px) {
+    .bg-img {
+        height: 350px;
+    }
+
+    .container2 {
+        left: 45%;
+        top: 48%
+    }
+
+    .hero-title {
+        font-size: 20px;
+    }
+
+    .hero-btn {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    #what-i-do p {
+        text-align: start;
+    }
+
+    .quote {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 485px) {
+    .bg-img {
+        height: 300px;
+    }
+
+    .container2 {
+        left: 45%;
+        top: 48%
+    }
+
+    .hero-title {
+        font-size: 15px;
+    }
+
+    .hero-btn {
+        font-size: 10px;
+        margin-top: 10px;
+        padding: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #what-i-do h1 {
+        font-size: 30px
+    }
+
+    #what-i-do p {
+        font-size: 14px;
+    }
+
+    .do-examples ul li {
+        font-size: 14px
+    }
+
+    .read-more button {
+        font-size: 16px;
+    }
+
+    #what-people-are-saying h1 {
+        font-size: 30px
+    }
+
+    .quote {
+        font-size: 14px;
+    } 
+
+    #contact-me h1 {
+        font-size: 30px; 
+        margin-top: 20%;
+    }
+
+    .contact-area p {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        width: 80%;
+    }
+
+    #contact-me form {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 375.98px) {
+    .quote {
+        width: 80%;
+    }
+
+    .contact-info h2 {
+        font-size: 20px;
+    }
+
+    .contact-info a {
+        font-size: 20px;
+    }
+}
