@@ -1,12 +1,12 @@
 import React from 'react';
-import locationsPhoto from '../assets/images/locations.jpg';
+import locationsPhoto from '../assets/images/map.png';
 import '../footer.css';
 
 function Footer() {
     return (
         <div id="footer" className="row">
             <div className="col-md-4">
-                <h1>Dry Zone</h1>
+                <h1>360 Waterproofing Services</h1>
                 <div className="footer-warning">
                     <p>Dry Zone Waterproofing and Concrete Coatings LLC is a certified and licensed company
                         by the city of Olympia, Washington. Our company is insured and dedicated to delivering high-quality

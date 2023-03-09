@@ -1,10 +1,10 @@
 #footer {
-    background-color: #171717 ;
+    background-color: #2A5151 ;
 }
 
 #footer h1 {
     font-family: 'Wallpoet', sans-serif;
-    color: #fd9116;
+    color: #CAE2E2;
     margin-left: 15%;
     font-size: 35px;
     margin-top: 10%
@@ -16,14 +16,14 @@
 }
 
 #footer p {
-    color: #8C8C8C; 
+    color: white; 
     font-family: 'Kanit', sans-serif;
 }
 
 #footer p a {
     text-decoration: none;
     /* text-decoration: underline #D79116; */
-    color: white; 
+    color: #5DACAC; 
     /* text-underline-offset: 3px; */
 }
 

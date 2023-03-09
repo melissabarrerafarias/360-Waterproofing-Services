@@ -11,7 +11,7 @@ function Homepage() {
                 <div class="container">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="/">DryZone</a>
+                            <a class="navbar-brand" href="/">360°</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span><i class="fa-solid fa-circle-chevron-down"></i></span> {/*CHANGE ICON LATER*/}
                             </button>
@@ -28,8 +28,8 @@ function Homepage() {
                 </div>
                 <Fade top>
                     <div className="container2">
-                        <p className="hero-title">{"WATERPROOFING &"}</p>
-                        <p className="hero-title">{"CONCRETE COATINGS LLC"}</p>
+                        <p className="hero-title">{"360 Waterproofing Services"}</p>
+                        {/* <p className="hero-title">{"Waterproofing Services"}</p> */}
                         <div className="hero-btns">
                             <button className="hero-btn hbtn1"><a href="#contact-me">Contact</a></button>
                             <button className="hero-btn hbtn2"><a href="/about">About</a></button>

@@ -19,13 +19,13 @@
 } */
 
 #homepage-main {
-    background-color: #202020;
+    background-color: #E5F1F1;
 }
 
 .bg-img {
     /* The image used */
-    background-image: url("../src/assets/images/water-drops.jpg");
-    height: 700px;
+    background-image: url("../src/assets/images/water-drops2.jpg");
+    height: 750px;
     min-width: 100%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -33,6 +33,7 @@
     background-size: cover;
     /* Needed to position the navbar */
     position: relative;
+    /* opacity: 90%; */
 }
 
 .container {
@@ -43,17 +44,20 @@
 }
 
 .container2 {
-    position: absolute;
-    top: 40%;
-    left: 55%;
-    /* width: 100%; */
+    left: 50%;
+    top: 70%; 
+    position: absolute  
 }
 
 .hero-title {
     color: white;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Wallpoet', sans-serif;
     font-size: 45px;
-    font-weight: bold;
+    /* font-weight: bold; */
+    background-color: #030a0f4f;
+    padding: 15px; 
+    border-radius: 5px;
+    /* letter-spacing: 2px; */
 }
 
 .container2 p {
@@ -72,8 +76,8 @@
 
 .hero-btn {
     padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 5px;
     margin: 8px;
     font-weight: 500;
@@ -86,12 +90,13 @@
 
 
 .hbtn1 {
-    background-color: rgba(253, 145, 22, 0.85);
+    background-color: #478583d4;
+    color: white;
     transition-duration: 1.5s;
 }
 
 .hbtn2 {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: #478583d4;
     color: white;
     padding-right: 18px;
     padding-left: 18px;
@@ -99,7 +104,7 @@
 }
 
 .hbtn1 a {
-    color: black;
+    color: white;
     transition-duration: 1.5s;
 }
 
@@ -113,7 +118,7 @@
 }
 
 .hbtn2:hover {
-    background-color: rgba(253, 145, 22, 0.85);
+    background-color: rgba(0, 0, 0, 0.85)
     /* color: black */
 }
 
