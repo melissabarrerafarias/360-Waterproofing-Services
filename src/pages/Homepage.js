@@ -99,7 +99,7 @@ function Homepage() {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="contact-area">
-                            <form action="https://formsubmit.co/melissikiss@gmail.com" method="POST">
+                            <form action="https://formsubmit.co/360waterproofingservices@gmail.com" method="POST">
                                 <p>Have a project in mind? Describe what you need and we'll get back to you.</p>
                                 <div class="input-group input-group-sm mb-3">
                                     <input type="text" name="name" placeholder="Full Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
