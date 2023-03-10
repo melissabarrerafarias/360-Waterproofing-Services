@@ -11,7 +11,7 @@ font-family: 'Work Sans', sans-serif; */
     padding: 0px
 }
 
-#about .navbar, #services .navbar{
+#about .navbar, #services .navbar, #work .navbar{
     background-color: #2A5151;
 }
 

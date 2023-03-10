@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Services from './pages/Services';
+import Work from './pages/Work';
 import Confirm from './pages/Confirm'; 
 
 
@@ -17,6 +18,7 @@ function App() {
         {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
+          <Route path="/work" element={<Work />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/services" element={<Services />}></Route>
           <Route path="/confirm" element={<Confirm />}></Route>
