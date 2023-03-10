@@ -1,5 +1,5 @@
 #services {
-    background-color: #202020;
+    background-color: #E5F1F1;
     padding-bottom: 30px
 }
 
@@ -68,7 +68,7 @@
 }
 
 #in-depth-services h1 {
-    color: black;
+    color: #071722;
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
     margin-top: 25px;
@@ -82,7 +82,7 @@
 
 .services-page-nav {
     margin-top: 20px;
-    color: black;
+    color: #071722;
     font-size: 25px;
     font-family: 'Kanit', sans-serif;
     background-image: url(./assets/images/white-wall.avif);
@@ -104,7 +104,7 @@
 }
 
 #in-depth-services h2 {
-    color: white;
+    color: #071722;
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
     margin-top: 15%;
@@ -226,18 +226,18 @@
     text-align: center;
     margin-top: 10%;
     font-size: 20px;
-    color: white;
+    color: #071722;
     font-family: 'Kanit', sans-serif;
     text-decoration: underline;
     transition-duration: 1s
 }
 
 .back-to-top:hover {
-    color: #fd9116
+    color: #53A2A2
 }
 
 .arrow {
-    color: white;
+    color: #071722;
     display: inline-block;
     padding: 20px;
     transform: rotate(45deg);

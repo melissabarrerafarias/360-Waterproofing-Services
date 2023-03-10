@@ -1,5 +1,5 @@
 #about {
-    background-color: #202020;
+    background-color: #E5F1F1;
     padding-bottom: 30px
 }
 
@@ -42,11 +42,11 @@
     left: 40%;
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
-    color: white
+    color: #071722
 }
 
 #about-paragraphs {
-    color: white; 
+    color: #071722; 
     font-size: 16px;
     font-family: 'Work Sans', sans-serif; 
     width: 40%; 
@@ -56,7 +56,7 @@
 }
 
 #about-paragraphs h1 {
-    color: #FD9116; 
+    color: #53A2A2; 
     margin-bottom: 2%;
     margin-top: 10%
 }
