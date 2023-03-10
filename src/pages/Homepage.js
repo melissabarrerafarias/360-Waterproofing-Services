@@ -20,7 +20,7 @@ function Homepage() {
                                     <a class="nav-link" aria-current="page" href="/">Home</a>
                                     <a class="nav-link" href="/about">About</a>
                                     <a class="nav-link" href="/services">Services</a>
-                                    <a class="nav-link" href="/work">Our Work</a>
+                                    {/* <a class="nav-link" href="/work">Our Work</a> */}
                                     <a class="nav-link" href="#contact-me">Contact</a>
                                 </div>
                             </div>
@@ -46,9 +46,10 @@ function Homepage() {
                 <div className="col-md-6">
                     <h1>What We Do</h1>
                     <div className="do-expln">
-                        <p>The name says it all! Dry Zone Waterproofing & Concrete Coatings LLC specializes in just that.
-                            We have more than a few tricks up our sleeve to protect your home or help you
-                            spruce it up! Some examples of what we could do for you are:
+                        <p>
+                            Servicing the San Francisco Bay Area, 360 Waterproofing Services specializes in just that...
+                            waterproofing! We provide assitance and solutions to protect your home or simply spruce it up! Some 
+                            examples of what we could do for you are: 
                         </p>
                     </div>
                     <div className="do-examples">
@@ -98,7 +99,7 @@ function Homepage() {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="contact-area">
-                            <form action="https://formsubmit.co/silverio@dzwcc.com" method="POST">
+                            <form action="https://formsubmit.co/melissikiss@gmail.com" method="POST">
                                 <p>Have a project in mind? Describe what you need and we'll get back to you.</p>
                                 <div class="input-group input-group-sm mb-3">
                                     <input type="text" name="name" placeholder="Full Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
@@ -110,7 +111,7 @@ function Homepage() {
                                     <textarea type="text" name="description" placeholder="Project Description" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                                 </div>
 
-                                <input type='hidden' name="_next" value="http://dzwcc.com/confirm" /> {/* needs to be changed to actual domain */}
+                                <input type='hidden' name="_next" value="/confirm" /> {/* needs to be changed to actual domain */}
                                 <input type="hidden" name="_captcha" value="false" />
                                 <div className="submit-button">
                                 <button type="submit" class="btn btn-primary">Submit</button>
@@ -123,16 +124,16 @@ function Homepage() {
                         <div className="contact-info">
                             <h2>CALL, TEXT, OR EMAIL</h2>
                             <div className="call">
-                                <a href="tel:360-890-1059">(360) 890-1059</a>
+                                <a href="tel:408-648-3779">(408) 648-3779</a>
                             </div>
                             <div className="email">
-                                <a href="mailto:silverio@dzwcc.com">silverio@dzwcc.com</a>
+                                <a href="mailto:360waterproofingservices@gmail.com">360waterproofingservices@gmail.com</a>
                             </div>
                             <div className="contact-icons">
-                                <a href="tel:360-890-1059">
+                                <a href="tel:408-648-3779">
                                     <i class="fa-solid fa-phone"></i>
                                 </a>
-                                <a href="mailto:silverio@dzwcc.com">
+                                <a href="mailto:360waterproofingservices@gmail.com">
                                     <i class="fa-solid fa-envelope-circle-check"></i>
                                 </a>
                             </div>

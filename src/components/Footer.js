@@ -8,10 +8,10 @@ function Footer() {
             <div className="col-md-4">
                 <h1>360 Waterproofing Services</h1>
                 <div className="footer-warning">
-                    <p>Dry Zone Waterproofing and Concrete Coatings LLC is a certified and licensed company
-                        by the city of Olympia, Washington. Our company is insured and dedicated to delivering high-quality
+                    <p> 360 Waterproofing Services LLC is a certified and licensed company
+                        by the state of California. Our company is insured and dedicated to delivering high-quality
                         results. We offer 20+ years of experience working on-site and supervising major projects.
-                        For further information, visit the Services section or contact us. <p className="footer-contact">Phone: <a href="tel:360-890-1059">(360)890-1059</a> / Email: <a href="mailto:silverio@dzwcc.com">silverio@dzwcc.com</a></p></p>
+                        For further information, visit the Services section or contact us. <p className="footer-contact">Phone: <a href="tel:408-648-3779">(408) 648-3779</a> / Email: <a href="mailto:360waterproofingservices@gmail.com">360waterproofingservices@gmail.com</a></p></p>
 
                 </div>
             </div>

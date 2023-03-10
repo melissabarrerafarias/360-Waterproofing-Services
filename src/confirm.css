@@ -1,6 +1,10 @@
 #confirm-page {
-    background-image: url('./assets/images/water-drops.jpg');
+    background-image: url('./assets/images/water-drops2.jpg');
+    background-repeat: no-repeat;
     height: 800px; 
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 #confirm {
@@ -15,14 +19,17 @@
     letter-spacing: 1px;
     margin-top: 250px; 
     text-align: center;
-    /* background-color: rgba(253, 145, 22, 0.85); */
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-right: 300px; 
+    margin-left: 300px; 
+    border-radius: 5px;
     /* text-decoration: underline rgba(253, 145, 22, 0.85); */
 }
 
 
 #confirm a {
     /* text-align: center; */
-    color: rgba(253, 145, 22, 0.85); 
+    color: #CAE2E2; 
     font-size: 20px;
     font-weight: bold; 
     font-family: 'Kanit', sans-serif;
