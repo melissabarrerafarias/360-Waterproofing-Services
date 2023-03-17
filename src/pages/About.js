@@ -40,7 +40,7 @@ function About() {
                         began his own company known as Dry Zone Waterproofing and Concrete Coatings LLC. </p> */}
 
                     <h1>Mission</h1>
-                    <p> 360 Waterproofing Services LLC promises to deliver lasting quality results with particular attention to detail.
+                    <p> 360 Waterproofing Services promises to deliver lasting quality results with particular attention to detail.
                         Our goal is to make sure you're happy and satisfied with our services. We strive for excellence and pride
                         ourselves in our work!
                         <br className='pt-5'></br>
